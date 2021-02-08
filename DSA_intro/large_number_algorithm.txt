@@ -1,0 +1,7 @@
+step1:start
+step2:user input (a,b,c)
+step3:find large number 
+step4:if a>b and a>c:
+      elif b>a and b>c:
+      else c
+step5:output the large number 

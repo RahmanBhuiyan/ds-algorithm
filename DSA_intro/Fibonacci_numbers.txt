@@ -1,0 +1,8 @@
+step1:start
+step2:user input the number
+step3:use 2 variable fixed with value (a=0 and b=1)
+step4:use for loop continue this step(for i in range (number))
+step5:use another variable (c=a+b)
+step6:transfer value a to b and b to c
+step7:and output the variable c
+step8:stop

@@ -1,0 +1,13 @@
+step1:start
+step2:user input the number 
+step3:if the number is less than 4 go to step 4 or go to step 5
+step4:if number =1 output the number (not prime) but the number is not =1 than output of the number is (prime )
+    Note:step4 satisfied when the number is less than 4 
+step5:use 2 variable a= number -1 and b=number +1 
+step6:elif a%6!=0 and b%6!=0:the output is (not prime number) becouse there is a simple mathe 
+        #6n+1=number and 6n-1=number
+        #6n=number-1 and 6n=number+1
+        #n=(number-1)/6!=0 and n=(number+1)/6!=0
+     when the step6 condition is not satisfied go to step7
+step7:else :it is (prime number)
+step8:stop

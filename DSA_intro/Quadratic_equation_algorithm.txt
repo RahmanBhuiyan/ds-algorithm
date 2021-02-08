@@ -1,0 +1,13 @@
+Roots of a quadratic equation ax2 + bx + c = 0 there a=!0
+
+step1:start
+step2:user input (a,b,c)
+step3:x1={-b+(b**2-4*a*c)**0.5}/2*a
+    #square root math(square root y=y**1/2=y**0.5)
+    #25**0.5=5(y=25)
+     x2={-b+(b**2-4*a*c)**0.5}/2*a
+step4:Display sum output 
+        print(x1),print(x2)
+step5:stop
+
+
