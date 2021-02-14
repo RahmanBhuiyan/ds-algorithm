@@ -32,12 +32,24 @@ class linkedlist:
                 n=n.ref
             n.ref=new_node
             new_node.ref=self.head
-    # def delete_begin(self):
-    #     if self.head== None:
-    #         print("ll is emipty")
-    #     else:
-    #         self.head=self.head.ref
+    def delate_end(self):
+        if self.head==None:
+            print("circular linkedlist is empty ")
+        if self.head.ref==self.head:
+            self.head=None
+            print("delate first node and list is empty ")
+        else:
+            n=self.head
+            while n.ref is not self.head:
+                stor=n
+                n=n.ref
+            stor.ref=self.head
+            n=None
+        
 obj=linkedlist()
 obj.add_end(12)
 obj.add_end(13)
+obj.delate_end()
+obj.delate_end()
+obj.delate_end()
 obj.link_node()
