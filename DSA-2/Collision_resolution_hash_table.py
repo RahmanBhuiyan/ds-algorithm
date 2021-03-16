@@ -1,6 +1,6 @@
 class hashtable:
     def __init__(self):
-        self.max=10
+        self.max=100
         self.list=[[]]*self.max
     def hash_function(self,key):
         ok=0
@@ -11,7 +11,11 @@ class hashtable:
         return chill
     def insert (self,key,val):
         ok=self.hash_function(key)
-        self.list[ok]=val
+        for idx,elemant in enumerate(self.list[ok]):
+            if len(elemant)==2 and elemant[0]==key:
+                self.list[ok][idx]=(key,val)
+                break
+        self.list[ok].append(key,val)
     def get (self,key):
         ok=self.hash_function(key)
         return self.list[ok]
@@ -21,27 +25,7 @@ class hashtable:
         self.list[ok]=None
 t=hashtable()
 t.insert("rahman",450)
-t.insert("bhuiyan",450)
 t.insert("error 4044","01869019351")
 print(t.get("rahman"))
 print(t.get("error 4044"))
 print(t.list)
-
-'''
-#nonetype error how to solve 
-
-# def demo():
-# 	print(3+4)
-# print('printed fucntion return none\n', demo())
-
-# # n = demo()+3
-# # print(n) #this will produce error.
-
-
-# def demo1():
-# 	return 3+4
-# print('returned function returns the value\n',demo1())
-
-# n1 = demo1()+3
-# print(n1)
-'''
