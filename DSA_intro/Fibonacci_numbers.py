@@ -12,7 +12,6 @@ for i in range(number):
     b=c
     print(c) 
     
-# print(time.time()-startime)
 # z=1
 # f(n)=z+z+n+1
 #     =2*1+n+1
