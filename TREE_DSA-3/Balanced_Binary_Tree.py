@@ -92,4 +92,3 @@ if isBalanced(root):
     print("Tree is balanced")
 else:
     print("Tree is not balanced")
-# This code is contributed by Shweta Singh
