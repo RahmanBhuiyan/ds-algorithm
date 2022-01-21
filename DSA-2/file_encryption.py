@@ -11,7 +11,6 @@ for i in value:
 chill=ok%j
 print(chill)
 
-
 #def insert(self,chill,value):
     #hash_key=chill
     #list[hash_key]=value

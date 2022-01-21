@@ -1,0 +1,9 @@
+user text data
+access every data use for loop
+check data have not any number use isalpha() method
+every latter convert capital latter use upper() method
+convert later to asii code use ord() method 
+use caesar cipher formula (ass_num+key_num) mod 26
+this output again convert number to latter 
+this encriypted data store in a variable 
+print the variable

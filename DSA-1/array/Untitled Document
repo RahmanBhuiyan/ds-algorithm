@@ -1,0 +1,5 @@
+creat a list
+define user data and user index to insert data
+list[:user_index]+[user_data]+[user_index:]
+print list
+
